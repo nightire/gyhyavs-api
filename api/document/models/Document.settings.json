@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "documents",
+  "info": {
+    "name": "document",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "fields": {
+      "default": "",
+      "type": "json",
+      "required": true
+    },
+    "type": {
+      "default": "web",
+      "type": "enumeration",
+      "enum": [
+        "test",
+        "web"
+      ],
+      "required": true
+    }
+  }
+}

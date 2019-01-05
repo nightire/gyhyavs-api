@@ -1,0 +1,50 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application.",
+  "main": "./server.js",
+  "scripts": {
+    "setup": "cd admin && npm run setup",
+    "start": "node server.js",
+    "strapi": "node_modules/strapi/bin/strapi.js",
+    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js",
+    "postinstall": "node node_modules/strapi/lib/utils/post-install.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "strapi": "3.0.0-alpha.17",
+    "strapi-hook-bookshelf": "3.0.0-alpha.17",
+    "strapi-hook-knex": "3.0.0-alpha.17",
+    "knex": "latest",
+    "pg": "7.7.1"
+  },
+  "author": {
+    "name": "nightire",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "nightire",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "strapi": {
+    "packageManager": "npm",
+    "uuid": "09693a98-ee20-4d65-8992-4a47c64588b5"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}

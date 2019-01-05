@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "postgres",
+        "uri": "",
+        "host": "127.0.0.1",
+        "port": 5432,
+        "database": "gyhyavs_stage",
+        "username": "",
+        "password": ""
+      },
+      "options": {
+        "ssl": "false",
+        "authenticationDatabase": ""
+      }
+    }
+  }
+}
