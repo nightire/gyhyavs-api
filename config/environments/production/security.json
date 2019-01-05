@@ -18,13 +18,13 @@
     "value": ""
   },
   "hsts": {
-    "enabled": true,
+    "enabled": false,
     "maxAge": 31536000,
     "includeSubDomains": true,
     "preload": true
   },
   "xframe": {
-    "enabled": true,
+    "enabled": false,
     "value": "SAMEORIGIN"
   },
   "xss": {
