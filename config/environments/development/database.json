@@ -9,7 +9,7 @@
         "srv": false,
         "port": 5432,
         "database": "gyhyavs_dev",
-        "username": "nightire",
+        "username": "postgres",
         "password": ""
       },
       "options": {
