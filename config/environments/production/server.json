@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "api.gyhydm.com",
   "port": "${process.env.PORT || 1337}",
   "proxy": {
     "enabled": false
